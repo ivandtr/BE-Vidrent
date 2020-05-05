@@ -3,6 +3,6 @@ const mongoose = require('mongoose');
 
 module.exports = function () {
   mongoose
-    .connect('mongodb://localhost/vidly')
+    .connect('mongodb://localhost/vidrent')
     .then(() => winston.info('Connected to MongoDB...'));
 };
