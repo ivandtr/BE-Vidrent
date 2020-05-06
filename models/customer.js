@@ -8,7 +8,7 @@ const Customer = mongoose.model(
       type: String,
       required: true,
       minlength: 5,
-      maxlenght: 50,
+      maxlength: 50,
     },
     isGold: {
       type: Boolean,
@@ -18,7 +18,7 @@ const Customer = mongoose.model(
       type: String,
       required: true,
       minlength: 5,
-      maxlenght: 50,
+      maxlength: 50,
     },
   })
 );
